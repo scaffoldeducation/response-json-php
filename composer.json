@@ -1,5 +1,5 @@
 {
-    "name": "kiwfy/response-json-php",
+    "name": "scaffoldeducation/response-json-php",
     "description": "PHP library to create a response json pattern to API's",
     "version": "1.0.0",
     "type": "library",
