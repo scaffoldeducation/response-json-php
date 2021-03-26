@@ -26,9 +26,12 @@ class ResponseJson
         $response = [
             'data' => $data,
             'profiler' => $profiler,
-            'token' => $token,
             'requestId' => $requestId,
         ];
+
+        if (!empty($token)) {
+            $response['token'] = $token;
+        }
 
         if (!empty($message)) {
             $response['message'] = $message;
